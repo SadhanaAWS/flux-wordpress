@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: wpdb-svc
+  labels:
+    app: wpextdb
+spec:
+  ports:
+    - port: 80
+  selector:
+    app: wpextdb
+    tier: frontend
+  type: LoadBalancer
+

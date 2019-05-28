@@ -1,0 +1,13 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  name: wpdb-ing
+spec:
+  rules:
+  - host: sadhana.gitops.kops.bsh-ac.cloud
+    http:
+      paths:
+      - path: /        
+        backend:
+          serviceName: wpdb-svc
+          servicePort: 80

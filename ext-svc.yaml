@@ -1,0 +1,7 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: wpextdb-svc
+spec:
+  type: ExternalName
+  externalName: gitops.cfgr3xj38ihj.eu-central-1.rds.amazonaws.com 
