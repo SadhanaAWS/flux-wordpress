@@ -5,10 +5,6 @@ metadata:
   name: wordpress
   labels:
     app: wpextdb
-  annotations:
-    flux.weave.works/automated_user: Sadhana N <sadhana.anjan@gmail.com>
-    flux.weave.works/automated: 'true'
-    flux.weave.works/automated_msg: test
 spec:
   selector:
     matchLabels:
