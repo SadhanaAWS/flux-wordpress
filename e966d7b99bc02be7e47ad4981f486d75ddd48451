@@ -1,0 +1,1 @@
+{"jobID":"a17454b2-4d03-7c88-5e1a-f760cecd58a9","spec":{"type":"policy","cause":{"Message":"test","User":"Sadhana N \u003csadhana.anjan@gmail.com\u003e"},"spec":{"default:deployment/wordpress":{"add":{"automated":"true","automated_msg":"test","automated_user":"Sadhana N \u003csadhana.anjan@gmail.com\u003e"},"remove":null}}},"result":null}
